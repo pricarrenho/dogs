@@ -35,8 +35,8 @@ export const PhotoContent = ({ data, single }) => {
             </li>
           </ul>
         </div>
+        <PhotoComments single={single} id={photo.id} comments={comments} />
       </div>
-      <PhotoComments single={single} id={photo.id} comments={comments} />
     </div>
   );
 };
